@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://still-dust-2666.fly.dev/";
+export const BACKEND_URL = "https://blue-frost-7410.fly.dev/";
