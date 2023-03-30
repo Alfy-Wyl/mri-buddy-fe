@@ -136,6 +136,7 @@ const Form = () => {
           <div id="options" className="options">
             <button
               onClick={() => {
+                setAnswers(()=>[])
                 sliderRef?.current?.slickNext();
               }}
               className={"yes"}
