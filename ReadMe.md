@@ -80,6 +80,12 @@ https://mri-buddy.netlify.app/
 
 
 ## Screenshots
+<img width="1439" alt="Screenshot 2023-03-30 at 12 16 27" src="https://user-images.githubusercontent.com/118228946/228859531-9e43094c-2b56-4b2f-8e21-f46424e41942.png">
+<img width="1439" alt="Screenshot 2023-03-30 at 12 17 46" src="https://user-images.githubusercontent.com/118228946/228859585-6f6577da-3a7f-4039-afd8-c288e86f04da.png">
+<img width="1439" alt="Screenshot 2023-03-30 at 12 18 42" src="https://user-images.githubusercontent.com/118228946/228859638-8b3e82c5-0219-430c-b5eb-596a73954c33.png">
+<img width="1439" alt="Screenshot 2023-03-30 at 12 33 38" src="https://user-images.githubusercontent.com/118228946/228859721-3ae991cf-0341-43ad-95c5-340facd6eaeb.png">
+
+
 
 ## Contact Information
 
