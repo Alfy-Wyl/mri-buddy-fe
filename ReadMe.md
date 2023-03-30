@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# MRI Buddy
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+  This is an application that provides information about Magnetic Resonance Imaging (MRI). The main target group for this application is all patients referred for MRI scans. 
+  Information provided on this application includes; What is MRI and How MRI works, Safety, Patient Preparation, Contrast Injection and Claustrophobia. 
+  Technologies used in the  creation of this application includes; HTML&CSS, JavaScript, React, Node, Express JS. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Contact-Information](#contact-Information)
 
-### `npm test`
+  
+## Installation
+  Run the following command to install required dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```
+  npm install cors
+  ```
+  ```
+  npm install express
+  ```
+  ```
+  npm install dotenv
+  ```
+  ```
+  npm install nodemon
+  ```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Use Node version 16 and above.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  #### To RUN THE BACKEND, run the following command
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    1. cd backend
+    2. npm install
+    3. npm run dev
 
-### `npm run eject`
+    Hurray you done!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   #### To RUN THE FRONTEND, run the following command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    1. cd frontend
+    2. npm install
+    3. npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Hurray you done!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ###### NB: Please note that the frontend and backend should run in different terminal session.
+  
 
-## Learn More
+  When a user opens the application, they are presented with an option to take a quick quiz to determine their suitability for an MRI scan. 
+  Given that a user selects NO for all questions, then they are presented with a specific message about their MRI scan.
+  Given that a user selects YES in one or more questions, then they are presented with a specific message about their MRI scan.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  When a user clicks on the "find out more" on each card to read on a topic, they are redirected to a different page for more information.
+  When a user wishes to return to the homepage to select a new topic, a click on the logo in the navbar returns user to homepage. A user can user the browser's back-arrow to return to homepage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  This project is licensed under the MIT license.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  Fork the repo to contribute.
 
-### Making a Progressive Web App
+## Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Link to deployed website:
+https://mri-buddy.netlify.app/
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots
 
-### Deployment
+## Contact Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  * Github: [alfy-wyl](https://github.com/alfy-wyl).
+  * Email: alfred.wnunoo@gmail.com
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
